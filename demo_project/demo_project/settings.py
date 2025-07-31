@@ -27,7 +27,11 @@ SECRET_KEY = 'django-insecure-wav7)_m*qzt%uk+(inqz7g-5s5ueswch7(*dls4gfmk7$*#@=*
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
+SENDGRID_API_KEY = "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"
+DEFAULT_FROM_EMAIL = "patidarchanchal47@gmail.com"
+TWILIO_ACCOUNT_SID = "ACffaf59f083811d82f0d3fc0ab9cd6c22"
+TWILIO_AUTH_TOKEN = "661782172038a114fccbd61c34117535"
+TWILIO_PHONE_NUMBER = "+12314686680"
 
 # Application definition
 
