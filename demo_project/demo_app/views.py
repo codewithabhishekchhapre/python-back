@@ -15,16 +15,7 @@ from uuid import uuid4
 # Create your views here.
 
 
-# @csrf_exempt
-# def sendOtp(request):
-#     if request.method=="POST":
-#         email= request.POST.get("email")
-#         mobile=request.POST.get("mobile")
-#         otp_type= request.POST.get("otp_type")  # 'email' or 'mobile'
-#         print(email,mobile,otp_type)
-#         return JsonResponse({email:email, mobile:mobile, otp_type:otp_type})
-#     else:
-#         return HttpResponse("Invalid request method. Please use POST.")    
+   
 
 
 
@@ -185,6 +176,7 @@ def send_otp(request):
 
 user_profiles = []
 
+# this is profile view
 @csrf_exempt
 def create_profile(request):
     if request.method == 'POST':

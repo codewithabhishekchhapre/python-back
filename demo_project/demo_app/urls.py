@@ -10,7 +10,6 @@ urlpatterns=[
      path("login/",views.login),
      path('api/signup/', views.Signup_api, name='signup_api'),
      path('send-otp/', views.send_otp, name='send_otp'),
-     # path("sendOtp/",views.sendOtp),
      path('api/create-profile/', views.create_profile),
      path('api/get-all-profiles/', views.get_All_profile),
      path('api/get-profile/<int:id>/', views.get_profile_by_user),
